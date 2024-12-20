@@ -18,7 +18,7 @@ M.highlights_base = function(colors)
 		PmenuSel = { fg = colors.background, bg = colors.color4 },
 		WildMenu = { fg = colors.color7, bg = colors.color4 },
 		CursorLineNr = { fg = colors.color1 },
-		Comment = { fg = colors.color4 },
+		Comment = { fg = colors.color12 },
 		Folded = { fg = colors.color4, bg = colors.background },
 		FoldColumn = { fg = colors.color4, bg = colors.background },
 		LineNr = { fg = colors.color9, bg = colors.background },
@@ -115,7 +115,7 @@ M.highlights_base = function(colors)
 		-- TSCharacter         = { };    -- For characters.
 		-- TSComment           = { };    -- For color1 blocks.
 		TSNote = { fg = colors.background, bg = colors.color5 },
-		TSComment = { fg = colors.color4 },
+		TSComment = { fg = colors.color12 },
 		TSWarning = { fg = colors.background, bg = colors.color5 },
 		TSDanger = { fg = colors.background, bg = colors.color3 },
 		TSConstructor = { fg = colors.color6 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
